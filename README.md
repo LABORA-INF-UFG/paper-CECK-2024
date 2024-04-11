@@ -1,2 +1,7 @@
-# paper-CECK-2024
-FramCo: Frame corrupted detection for the Open RAN intelligent controller to assist UAV-based mission-critical operations
+# FramCo: Frame corrupted detection for the Open RAN intelligent controller to assist UAV-based mission-critical operations
+
+Unmanned Aerial Vehicles (UAVs) and communication systems are fundamental elements in Mission Critical services, such as Search and Rescues (SARs) operations. UAVs can fly over an area, collect high-resolution video information, and transmit it back to a ground base station to identify victims through a Deep Neural Network object
+detection model. However, instabilities in the communication infrastructure can compromise SAR operations. For example, if one or more transmitted data packets fail to arrive at their destination, the high-resolution video frames can be distorted, degrading the application performance. In this article, we explore the relevance of computer vi-
+sion application information, complementing the functionalities of Radio Access Network Intelligent Controllers for managing and orchestrating network components, through FramCo - a frame corrupted detection based on EfficientNet. Another contribution from this article is an architectural element that explores the components of the Open
+Radio Access Network (O-RAN) standard specification, with an assessment of a complex use case that explores new market trends, such as SAR operations assisted by UAV-based computer vision. The experimental results indicate that the proposed architectural component can act as an external trigger, integrated into the O-RAN cognitive control
+loop, significantly improving the performance of applications with sensible Key Performance Indicators (KPIs).
